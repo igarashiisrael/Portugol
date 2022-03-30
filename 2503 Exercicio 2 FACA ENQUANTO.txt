@@ -1,0 +1,19 @@
+programa
+{
+   funcao inicio()
+    {
+    inteiro n , c=0 , soma=0
+    escreva("Digite um numero: ")
+    leia(n)
+    faca {
+        c++
+        soma += c
+        escreva(c)
+        se (c != n){ 
+          escreva(" + ")
+        }
+    }
+   enquanto(c <n)
+    escreva(" = ", soma)
+    }
+}

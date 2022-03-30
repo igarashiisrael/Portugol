@@ -1,0 +1,25 @@
+programa
+{
+
+    funcao inicio()
+    {
+              inteiro c, v=0
+
+        escreva ("Os números a serem somados são: \n")
+            para(c=1;c<=500;c++)
+
+
+            {
+             se (c% 2 == 1 e c % 3 == 0){
+                 v = v + c
+                 escreva("\n",c)
+             }
+
+
+            }
+            escreva("\nA soma de todos os números impares e múltiplos de 3, entre 1 e 500 é de: ", v)
+
+
+      }
+
+}

@@ -1,0 +1,15 @@
+programa{
+	
+	inclua biblioteca Util
+	
+	funcao inicio(){
+		inteiro n, vet[10]
+		
+		para(n = 0; n < 10; n++)
+		vet[n] = Util.sorteia(1, 6)
+		
+		para(n = 0; n < 10; n++)
+		escreva(vet[n], ", ")
+		escreva("\n")
+  }
+}

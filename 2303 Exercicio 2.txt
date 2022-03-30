@@ -1,0 +1,24 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		inteiro idadeAnos, idadeDias, idadeMeses, totalDias
+		
+		escreva("Digite sua idade em dias: ")
+		leia (totalDias)
+
+		idadeAnos = totalDias/365
+		idadeMeses = (totalDias - (365*idadeAnos)) / 30
+		totalDias = (totalDias - (365*idadeAnos)) % 30
+		
+		
+		escreva ("você tem "  + idadeAnos + " anos, " + idadeMeses + " meses e " + totalDias + " dias.")
+	}
+}
+
+
+
+
+ 

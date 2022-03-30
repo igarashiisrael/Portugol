@@ -1,0 +1,26 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		real percenDistribuidor, percenImpostos, custoFabrica, valorDistribuidor, valorImposto
+		inteiro custoConsumidor		
+		
+		percenDistribuidor = 0.28
+		percenImpostos = 0.45
+
+		escreva ("Informe o valor de custo da fábrica: ")
+		leia (custoFabrica)
+
+		valorDistribuidor = (custoFabrica * percenDistribuidor)
+		valorImposto = (custoFabrica * percenImpostos)
+		custoConsumidor = custoFabrica + valorDistribuidor + valorImposto
+
+
+		escreva("O custo ao consumidor é: ", custoConsumidor)
+
+
+	}
+
+}

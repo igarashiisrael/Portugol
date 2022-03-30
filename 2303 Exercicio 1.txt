@@ -1,0 +1,26 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		inteiro idadeAnos, idadeDias, idadeMeses, totalDias
+
+		escreva("Digite sua idade: ")
+		leia (idadeAnos)
+
+		escreva("Digite quantos meses fazem desde o seu aníversário: ")
+		leia(idadeMeses)
+		
+		escreva("Digite quantos dias fazem desde o seu aníversário: ")
+		leia(idadeDias)
+
+		totalDias = (idadeAnos*365)
+		totalDias = totalDias+(idadeMeses*30)
+		totalDias = totalDias+idadeDias
+
+		escreva ("Sua idade em dias é: " + totalDias)
+
+		
+	}
+}
